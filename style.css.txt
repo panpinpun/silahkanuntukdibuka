@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(135deg, #ffd1dc, #fff1f5);
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #e75480;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.love {
+    font-style: italic;
+    margin-top: 15px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #e75480;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d64570;
+}
+
+#hiddenMessage {
+    display: none;
+    margin-top: 15px;
+    color: #e75480;
+    font-weight: bold;
+}
