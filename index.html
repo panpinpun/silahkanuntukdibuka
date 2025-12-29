@@ -18,9 +18,26 @@
 function playMusic() {
   const audio = document.getElementById("musik");
   audio.play();
+
   document.getElementById("playBtn").style.display = "none";
+
+  // CONFETTI EFFECT
+  confetti({
+    particleCount: 150,
+    spread: 80,
+    origin: { y: 0.6 }
+  });
+
+  setTimeout(() => {
+    confetti({
+      particleCount: 100,
+      spread: 120,
+      origin: { y: 0.2 }
+    });
+  }, 800);
 }
 </script>
+
 
 
 
@@ -49,6 +66,7 @@ function showMessage() {
 
 </body>
 </html>
+
 
 
 
